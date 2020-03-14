@@ -12,9 +12,5 @@ function returnProduct(product) {
 var prod1 = new Grocery("Milk", "2");
 var prod2 = new Grocery("Bread", "1");
 var prod3 = new Grocery("Bananas", "6");
-var groceryList = [
-    returnProduct(prod1),
-    returnProduct(prod2),
-    returnProduct(prod3)
-];
+var groceryList = [returnProduct(prod1), returnProduct(prod2), returnProduct(prod3)];
 document.body.textContent = groceryList.toString();
