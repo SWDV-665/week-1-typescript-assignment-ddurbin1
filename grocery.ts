@@ -18,10 +18,6 @@ class Grocery {
   let prod2 = new Grocery("Bread", "1");
   let prod3 = new Grocery("Bananas", "6");
   
-  let groceryList = [
-    returnProduct(prod1),
-    returnProduct(prod2),
-    returnProduct(prod3)
-  ];
+  let groceryList = [ returnProduct(prod1), returnProduct(prod2), returnProduct(prod3)];
   
   document.body.textContent = groceryList.toString();
